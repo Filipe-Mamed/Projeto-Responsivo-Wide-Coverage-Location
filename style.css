@@ -5,15 +5,14 @@
   padding: 0;
 }
 
-.container{
+.container {
   width: 100vw;
   height: 100vh;
 }
 
-.container-esquerda{
+.container-esquerda {
   display: inline-block;
   width: 50%;
-
 }
 
 header {
@@ -24,16 +23,13 @@ header {
   font-size: medium;
 }
 
-.novo-h{
+.novo-h {
   display: none;
 }
 
-
-
-.link-header{
+.link-header {
   margin-left: 50px;
 }
-
 
 #botao {
   background-color: #32cd32;
@@ -46,23 +42,16 @@ header {
   margin-left: 50px;
 }
 
-img{
+img {
   margin-left: 110px;
 }
 
-
-
-
-.container-direita{
+.container-direita {
   display: inline-block;
   width: 50%;
   position: absolute;
-  
   padding-top: 20%;
 }
-
-
-
 
 h1 {
   font-size: 60px;
@@ -83,101 +72,35 @@ p {
   cursor: pointer;
   margin-top: 39px;
 }
-                                             
 
-
-
-
-
-                                                       /*MEDIA QUERIES*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 900px){
-  .container{
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
+@media screen and (max-width: 900px) {
+  .container {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      height: auto;
   }
-  
-  .container-esquerda{
-    width: auto;
-    margin-top: 50px;
-    order: 2;
-  
+
+  .container-esquerda {
+      width: auto;
+      margin-top: 50px;
+      order: 2;
   }
-  
+
   header {
-    display: none;
-    margin-top: 45px;
-    margin-left: 30px;
-    margin-bottom: 90px;
-    cursor: pointer;
-    font-size: medium;
-  }
-  
-  
-  
-  .link-header{
-    margin-left: 50px;
-  }
-  
-  
-  #botao {
-    display: none;
-    background-color: #32cd32;
-    color: #fff;
-    border-radius: 10px;
-    border: none;
-    height: 45px;
-    width: 110px;
-    cursor: pointer;
-    margin-left: 50px;
-  }
-  
-  img{
-    margin-left: 0px;
-    width: 100vw;
-  }
-  
-  
-  
-  
-  .container-direita{
-    width: auto;
-    position: static;
-    order: 1;
-    padding-top: 0px;
-    }
-
-    .novo-h{
-      display: block;
-      margin-top: 10px;
-      margin-left: 80px;
-      margin-bottom: 0px;
+      display: none;
+      margin-top: 45px;
+      margin-left: 30px;
+      margin-bottom: 90px;
       cursor: pointer;
       font-size: medium;
-      text-align: end;
-    }
-  
-    .login{
+  }
+
+  .link-header {
       margin-left: 50px;
-  
-    }
-  
-    #botao2{
+  }
+
+  #botao {
       background-color: #32cd32;
       color: #fff;
       border-radius: 10px;
@@ -186,36 +109,64 @@ p {
       width: 110px;
       cursor: pointer;
       margin-left: 50px;
-  
-    }
-  
-  
-  
-  
+  }
+
+  img {
+      margin-left: 0px;
+      width: 100vw;
+  }
+
+  .container-direita {
+      width: auto;
+      position: static;
+      order: 1;
+      padding-top: 0px;
+  }
+
+  .novo-h {
+      display: block;
+      margin-top: 10px;
+      margin-left: 80px;
+      margin-bottom: 0px;
+      cursor: pointer;
+      font-size: medium;
+      text-align: end;
+  }
+
+  .login {
+      margin-left: 50px;
+  }
+
+  #botao2 {
+      background-color: #32cd32;
+      color: #fff;
+      border-radius: 10px;
+      border: none;
+      height: 45px;
+      width: 110px;
+      cursor: pointer;
+      margin-left: 50px;
+  }
+
   h1 {
-    font-size: 50px;
-    font-style: normal;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 50px;
+      font-size: 50px;
+      font-style: normal;
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 50px;
   }
-  
+
   p {
-    color: dimgray;
-    text-align: left;
-    padding: 0 0 0 0;
-    text-align: center;
-    margin-top: 40px;
-    
+      color: dimgray;
+      text-align: center;
+      padding: 0;
+      margin-top: 40px;
   }
-  
+
   .p11 {
-    color: #32cd32;
-    text-align: center;
-    cursor: pointer;
-    margin-top: 40px;
+      color: #32cd32;
+      text-align: center;
+      cursor: pointer;
+      margin-top: 40px;
   }
 }
-
-
-
