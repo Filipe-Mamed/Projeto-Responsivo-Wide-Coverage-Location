@@ -136,6 +136,7 @@ p {
   
   
   #botao {
+    display: none;
     background-color: #32cd32;
     color: #fff;
     border-radius: 10px;
