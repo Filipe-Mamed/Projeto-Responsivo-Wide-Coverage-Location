@@ -34,6 +34,14 @@ header {
   margin-left: 50px;
 }
 
+.link-header:active {
+  color: transparent;
+}
+
+.link-header:hover {
+  opacity: 0.5;
+}
+
 
 #botao {
   background-color: #32cd32;
@@ -46,6 +54,14 @@ header {
   margin-left: 50px;
 }
 
+#botao:active {
+  color: transparent;
+}
+
+#botao:hover {
+  opacity: 0.9;
+
+}
 img{
   margin-left: 110px;
 }
@@ -82,6 +98,14 @@ p {
   text-align: left;
   cursor: pointer;
   margin-top: 39px;
+}
+
+.p11:active {
+  color: transparent;
+}
+
+.p11:hover {
+  opacity: 0.5;
 }
                                              
 
@@ -176,6 +200,14 @@ p {
       margin-left: 50px;
   
     }
+
+    .login:active {
+      color: transparent;
+    }
+    
+    .login:hover {
+      opacity: 0.5;
+    }
   
     #botao2{
       background-color: #32cd32;
@@ -187,6 +219,14 @@ p {
       cursor: pointer;
       margin-left: 50px;
   
+    }
+
+    #botao2:active {
+      color: transparent;
+    }
+    
+    #botao2:hover {
+      opacity: 0.5;
     }
   
   
